@@ -26,6 +26,12 @@ Route::get('/', function () {
 Route::get('admin', function () {
     return view('backend.dashboard');
 });
+Route::get('admin/login', function () {
+    return view('backend.login');
+});
+Route::get('admin/register', function () {
+    return view('backend.register');
+});
 
 
 Route::get('banner', function () {
