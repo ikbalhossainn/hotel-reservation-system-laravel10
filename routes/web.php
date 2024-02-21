@@ -23,8 +23,13 @@ Route::get('/', function () {
 
 // Backend
 
-Route::get('/admin', function () {
+Route::get('admin', function () {
     return view('backend.dashboard');
+});
+
+
+Route::get('banner', function () {
+    return view('backend.banner.index');
 });
 
 

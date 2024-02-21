@@ -3,27 +3,27 @@
 
         <li class="dropdown d-none d-lg-block">
             <a class="nav-link dropdown-toggle mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                <img src="assets/images/flags/us.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">English <i class="mdi mdi-chevron-down"></i> </span>
+                <img src="{{asset('')}}assets/images/flags/us.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">English <i class="mdi mdi-chevron-down"></i> </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">German</span>
+                    <img src="{{asset('')}}assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">German</span>
                 </a>
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Italian</span>
+                    <img src="{{asset('')}}assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Italian</span>
                 </a>
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Spanish</span>
+                    <img src="{{asset('')}}assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Spanish</span>
                 </a>
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Russian</span>
+                    <img src="{{asset('')}}assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Russian</span>
                 </a>
 
             </div>
@@ -65,7 +65,7 @@
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <div class="notify-icon">
-                            <img src="assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" />
+                            <img src="{{asset('')}}assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" />
                         </div>
                         <p class="notify-details">Cristina Pride</p>
                         <p class="text-muted mb-0 user-msg">
@@ -82,7 +82,7 @@
                     <!-- item-->
                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                         <div class="notify-icon">
-                            <img src="assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" />
+                            <img src="{{asset('')}}assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" />
                         </div>
                         <p class="notify-details">Karen Robinson</p>
                         <p class="text-muted mb-0 user-msg">
@@ -113,7 +113,7 @@
 
         <li class="dropdown notification-list">
             <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                <img src="assets/images/users/avatar-4.jpg" alt="user-image" class="rounded-circle">
+                <img src="{{asset('')}}assets/images/users/avatar-4.jpg" alt="user-image" class="rounded-circle">
                 <span class="pro-user-name ml-1">
                     Agnes K <i class="mdi mdi-chevron-down"></i>
                 </span>
@@ -173,10 +173,10 @@
         <li class="float-left">
             <a href="index.html" class="logo">
                 <span class="logo-lg">
-                    <img src="assets/images/logo-light.png" alt="" height="22">
+                    <img src="{{asset('')}}assets/images/logo-light.png" alt="" height="22">
                 </span>
                 <span class="logo-sm">
-                    <img src="assets/images/logo-sm.png" alt="" height="24">
+                    <img src="{{asset('')}}assets/images/logo-sm.png" alt="" height="24">
                 </span>
             </a>
         </li>
