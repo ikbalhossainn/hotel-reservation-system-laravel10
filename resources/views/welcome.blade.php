@@ -7,7 +7,7 @@
     <title>frontend</title>
 </head>
 <body>
-    <h1>This is Frontend</h1>
-    <button><a href="{{url('admin')}}">admin</a></button>
+    <h1> Frontend template will be added very soon </h1>
+    <button><a href="{{url('admin')}}"> Admin Panel </a></button>
 </body>
 </html>
