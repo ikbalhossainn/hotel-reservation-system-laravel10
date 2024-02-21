@@ -70,9 +70,10 @@ class BannerController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Banner $banner)
+    public function edit(Request $request, $id)
     {
-        //
+        $banners = Banner::find($id);
+        return view('backend.banner.edit',compact('banners'));
     }
 
     /**
