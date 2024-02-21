@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('banner_src');
             $table->string('alt_text');
-            $table->string('publish_status');
+            $table->string('publish_status')->default(0);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });

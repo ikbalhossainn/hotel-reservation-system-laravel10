@@ -12,7 +12,11 @@ class BannerController extends Controller
      */
     public function index()
     {
-        //
+        $banners = Banner::all();
+        return view('backend.banner.index', compact('banners'));
+
+        // $demo['banners'] = Banner::all();
+        // return view('backend.banner.index', $demo);
     }
 
     /**
@@ -20,7 +24,7 @@ class BannerController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.banner.create');
     }
 
     /**
@@ -28,7 +32,31 @@ class BannerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validate = $this->validate($request,[
+            'banner_src'=>'image|mimes:jpg,jpeg,png,gif',
+            'alt_text'=>'required',
+            
+        ]);
+        // $imageName = Null;
+        $imageName = time().'.'.$request->banner_src->extension();
+
+        // $test = [
+        //     'banner_src'=>$imageName,
+        // 'alt_text'=>$request->alt_text,
+        // ];
+        // dd($test);
+
+        // $uuid = IdGenerator::generate(['table' => 'employees','field'=>'uuid', 'length' => 7, 'prefix' =>'EMP-']);
+
+        if($validate){
+            Banner::create([
+                'banner_src'=>$imageName,
+                'alt_text'=>$request->alt_text,
+                // 'publish_status'=>$imageName,
+            ]);
+            $request->banner_src->move(('banner'), $imageName);
+            return redirect('banners')->with('success',"Banner Photo has been added");
+        }
     }
 
     /**

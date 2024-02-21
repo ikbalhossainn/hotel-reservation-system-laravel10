@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BannerController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -34,9 +35,17 @@ Route::get('admin/register', function () {
 });
 
 
-Route::get('banner', function () {
-    return view('backend.banner.index');
-});
+// Route::get('banner', function () {
+//     return view('backend.banner.index');
+// });
+
+// Banner Route
+Route::get('banners', [BannerController::class, 'index'])->name('banner/index');
+Route::get('banner/create', [BannerController::class, 'create'])->name('banner/create');
+Route::post('banner/save', [BannerController::class, 'store'])->name('banner/store');
+Route::get('banner/edit/{id}', [BannerController::class, 'edit'])->name('banner/edit');
+Route::get('banner/update/{id}', [BannerController::class, 'update'])->name('banner/update');
+Route::get('banner/delete/{id}', [BannerController::class, 'destroy'])->name('banner/delete');
 
 
 

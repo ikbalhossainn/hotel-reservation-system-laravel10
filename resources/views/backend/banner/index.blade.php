@@ -42,26 +42,27 @@
                     <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap">
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>#SL</th>
+                                <th>Banner Image</th>
+                                <th>Banner Name</th>
+                                <th>Publish Status</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
-
+                        {{-- banner_src', 'alt_text', 'publish_status --}}
                         <tbody>
+                            @foreach ($banners as $key=>$banner )
+                            <td>{{++$key}}</td>
+                            <td><img src="{{asset('banner/' .$banner->banner_src)}}" alt="{{$banner->alt_text}}"  width="50px" height="50px"></td>
+                            <td>{{$banner->alt_text}}</td>
+                            <td>{{$banner->publish_status}}</td>
+                            <td>
+                                <a class="btn btn-secondary" href="{{route('banner/edit', $banner->id)}}"><i class="bi bi-pencil-square">Edit</i></a>
 
-                        <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
-                            <td>Edinburgh</td>
-                            <td>61</td>
-                            <td>2011/04/25</td>
-                            <td>$320,800</td>
+                                <a class="btn btn-danger" href="{{route('banner/delete', $banner->id)}}" onclick="return confirm('Are you sure to delete')"><i class="bi bi-trash">Delete</i></a>
+                                </td>
                         </tr>
-
+                        @endforeach
                         </tbody>
                     </table>
                 </div>
