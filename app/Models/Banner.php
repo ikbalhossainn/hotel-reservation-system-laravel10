@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Banner extends Model
 {
     use HasFactory;
+    protected $fillable = ['banner_src', 'alt_text', 'publish_status']; // as same as database field
 }
+
+	

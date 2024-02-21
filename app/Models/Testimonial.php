@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Testimonial extends Model
 {
     use HasFactory;
+    protected $fillable = ['customer_id', 'testi_cont']; // as same as database field
 }

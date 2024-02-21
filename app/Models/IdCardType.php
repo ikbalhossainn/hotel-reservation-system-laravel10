@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class IdCardType extends Model
 {
     use HasFactory;
+    protected $fillable = ['type']; // as same as database field
 }

@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Complain extends Model
 {
     use HasFactory;
+    protected $fillable = ['complainer', 'complaint_type', 'complain', 'status', 'resolve_date',]; // as same as database field
 }
+
+
