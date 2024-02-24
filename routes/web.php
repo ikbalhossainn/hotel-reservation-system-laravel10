@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 // Frontend
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.layouts.app');
 });
 
 // Backend

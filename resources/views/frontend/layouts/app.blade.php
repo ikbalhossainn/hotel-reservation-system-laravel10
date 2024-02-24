@@ -97,8 +97,8 @@
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
                 <a href="index.html" class="logo">
-                    <img src="assets/img/logos/logo-1.png" class="logo-one" alt="Logo">
-                    <img src="assets/img/logos/footer-logo1.png" class="logo-two" alt="Logo">
+                    <img src="{{asset('')}}frontend/assets/img/logos/logo-1.png" class="logo-one" alt="Logo">
+                    <img src="{{asset('')}}frontend/assets/img/logos/footer-logo1.png" class="logo-two" alt="Logo">
                 </a>
             </div>
 
@@ -107,8 +107,8 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light ">
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/logos/logo-1.png" class="logo-one" alt="Logo">
-                            <img src="assets/img/logos/footer-logo1.png" class="logo-two" alt="Logo">
+                            <img src="{{asset('')}}frontend/assets/img/logos/logo-1.png" class="logo-one" alt="Logo">
+                            <img src="{{asset('')}}frontend/assets/img/logos/footer-logo1.png" class="logo-two" alt="Logo">
                         </a>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -395,7 +395,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img src="assets/img/about/about-img.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/about/about-img.jpg" alt="Images">
                         </div>
                     </div>
 
@@ -500,7 +500,7 @@
 
                     <div class="col-lg-6">
                         <div class="reservation-img">
-                            <img src="assets/img/reservation/reservation-img.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/reservation/reservation-img.jpg" alt="Images">
                         </div>
                     </div>
                 </div>
@@ -519,7 +519,7 @@
                 <div class="row pt-45 align-items-center">
                     <div class="col-lg-6 col-xxl-7">
                         <div class="specialty-img">
-                            <img src="assets/img/specialty/specialty-img1.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/specialty/specialty-img1.jpg" alt="Images">
                         </div>
                     </div>
 
@@ -568,7 +568,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="room-card">
                             <a href="room-details.html">
-                                <img src="assets/img/room/room-img1.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/room/room-img1.jpg" alt="Images">
                             </a>
                             <div class="content">
                                 <h3><a href="room-details.html">Luxury Room</a></h3>
@@ -590,7 +590,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="room-card">
                             <a href="room-details.html">
-                                <img src="assets/img/room/room-img2.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
                             </a>
                             <div class="content">
                                 <h3><a href="room-details.html">Single Room</a></h3>
@@ -612,7 +612,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="room-card">
                             <a href="room-details.html">
-                                <img src="assets/img/room/room-img3.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/room/room-img3.jpg" alt="Images">
                             </a>
                             <div class="content">
                                 <h3><a href="room-details.html">Double Room</a></h3>
@@ -634,7 +634,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="room-card">
                             <a href="room-details.html">
-                                <img src="assets/img/room/room-img4.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/room/room-img4.jpg" alt="Images">
                             </a>
                             <div class="content">
                                 <h3><a href="room-details.html">Family Room</a></h3>
@@ -656,7 +656,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="room-card">
                             <a href="room-details.html">
-                                <img src="assets/img/room/room-img5.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/room/room-img5.jpg" alt="Images">
                             </a>
                             <div class="content">
                                 <h3><a href="room-details.html">Deluxe Room</a></h3>
@@ -678,7 +678,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="room-card">
                             <a href="room-details.html">
-                                <img src="assets/img/room/room-img6.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/room/room-img6.jpg" alt="Images">
                             </a>
                             <div class="content">
                                 <h3><a href="room-details.html">Presidential Room</a></h3>
@@ -717,7 +717,7 @@
                         </p>
                         <ul>
                             <li>
-                                <img src="assets/img/testimonials/testimonials-img1.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/testimonials/testimonials-img1.jpg" alt="Images">
                                 <h3>Mary Marden</h3>
                                 <span>New York City</span>
                             </li>
@@ -732,7 +732,7 @@
                         </p>
                         <ul>
                             <li>
-                                <img src="assets/img/testimonials/testimonials-img2.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/testimonials/testimonials-img2.jpg" alt="Images">
                                 <h3>Harriet Johnson</h3>
                                 <span>London City</span>
                             </li>
@@ -747,7 +747,7 @@
                         </p>
                         <ul>
                             <li>
-                                <img src="assets/img/testimonials/testimonials-img3.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/testimonials/testimonials-img3.jpg" alt="Images">
                                 <h3>Tyrone Morgan</h3>
                                 <span>New Jersey</span>
                             </li>
@@ -762,7 +762,7 @@
                         </p>
                         <ul>
                             <li>
-                                <img src="assets/img/testimonials/testimonials-img4.jpg" alt="Images">
+                                <img src="{{asset('')}}frontend/assets/img/testimonials/testimonials-img4.jpg" alt="Images">
                                 <h3>Julia Rose</h3>
                                 <span>Budapest</span>
                             </li>
@@ -779,7 +779,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-xxl-7">
                         <div class="faq-img">
-                            <img src="assets/img/faq/faq-img1.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/faq/faq-img1.jpg" alt="Images">
                         </div>
                     </div>
 
@@ -869,7 +869,7 @@
                 <div class="team-slider owl-carousel owl-theme pt-45">
                     <div class="team-item">
                         <a href="team.html">
-                            <img src="assets/img/team/team-img1.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/team/team-img1.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="team.html">Tom Shumate</a></h3>
@@ -893,7 +893,7 @@
 
                     <div class="team-item">
                         <a href="team.html">
-                            <img src="assets/img/team/team-img2.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/team/team-img2.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="team.html">Carrie Horton</a></h3>
@@ -917,7 +917,7 @@
 
                     <div class="team-item">
                         <a href="team.html">
-                            <img src="assets/img/team/team-img3.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/team/team-img3.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="team.html">Brian Orlando</a></h3>
@@ -941,7 +941,7 @@
 
                     <div class="team-item">
                         <a href="team.html">
-                            <img src="assets/img/team/team-img4.jpg" alt="Images">
+                            <img src="{{asset('')}}frontend/assets/img/team/team-img4.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <h3><a href="team.html">Michael Evens</a></h3>
@@ -981,7 +981,7 @@
                                 <div class="col-lg-5 col-md-4 p-0">
                                     <div class="blog-img">
                                         <a href="blog-details.html">
-                                            <img src="assets/img/blog/blog-img1.jpg" alt="Images">
+                                            <img src="{{asset('')}}frontend/assets/img/blog/blog-img1.jpg" alt="Images">
                                         </a>
                                     </div>
                                 </div>
@@ -1008,7 +1008,7 @@
                                 <div class="col-lg-5 col-md-4 p-0">
                                     <div class="blog-img">
                                         <a href="blog-details.html">
-                                            <img src="assets/img/blog/blog-img2.jpg" alt="Images">
+                                            <img src="{{asset('')}}frontend/assets/img/blog/blog-img2.jpg" alt="Images">
                                         </a>
                                     </div>
                                 </div>
@@ -1042,7 +1042,7 @@
                             <div class="footer-widget">
                                 <div class="footer-logo">
                                     <a href="index.html">
-                                        <img src="assets/img/logos/footer-logo1.png" alt="Images">
+                                        <img src="{{asset('')}}frontend/assets/img/logos/footer-logo1.png" alt="Images">
                                     </a>
                                 </div>
                                 <p>
