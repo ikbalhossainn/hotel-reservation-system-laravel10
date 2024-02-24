@@ -26,6 +26,9 @@ Route::get('about', function () {
     return view('frontend.pages.about');
 });
 
+Route::get('book', function () {
+    return view('frontend.pages.book');
+});
 
 
 Route::get('contact', function () {

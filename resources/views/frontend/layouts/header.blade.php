@@ -56,13 +56,13 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="book.html" class="nav-link">
+                                    <a href="book" class="nav-link">
                                         Booking
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="team.html" class="nav-link">
+                                    <a href="team" class="nav-link">
                                         Team
                                     </a>
                                 </li>
