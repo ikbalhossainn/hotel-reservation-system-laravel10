@@ -26,8 +26,35 @@ Route::get('about', function () {
     return view('frontend.pages.about');
 });
 
+Route::get('contact', function () {
+    return view('frontend.pages.contact');
+});
+
 Route::get('book', function () {
     return view('frontend.pages.book');
+});
+
+Route::get('team', function () {
+    return view('frontend.pages.team');
+});
+
+Route::get('faq', function () {
+    return view('frontend.pages.faq');
+});
+Route::get('restaurant', function () {
+    return view('frontend.pages.restaurant');
+});
+Route::get('reservation', function () {
+    return view('frontend.pages.reservation');
+});
+Route::get('team', function () {
+    return view('frontend.pages.team');
+});
+Route::get('team', function () {
+    return view('frontend.pages.team');
+});
+Route::get('team', function () {
+    return view('frontend.pages.team');
 });
 
 

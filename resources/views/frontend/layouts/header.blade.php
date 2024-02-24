@@ -67,25 +67,25 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="faq.html" class="nav-link">
+                                    <a href="faq" class="nav-link">
                                         FAQ
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="restaurant.html" class="nav-link">
+                                    <a href="restaurant" class="nav-link">
                                         Restaurant
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="reservation.html" class="nav-link">
+                                    <a href="reservation" class="nav-link">
                                         Reservation
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="gallery.html" class="nav-link">
+                                    <a href="gallery" class="nav-link">
                                         Gallery
                                     </a>
                                 </li>
