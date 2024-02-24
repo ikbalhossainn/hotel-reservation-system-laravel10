@@ -19,7 +19,17 @@ use Illuminate\Support\Facades\Route;
 // Frontend
 
 Route::get('/', function () {
-    return view('frontend.layouts.app');
+    return view('frontend.pages.home');
+});
+
+Route::get('about', function () {
+    return view('frontend.pages.about');
+});
+
+
+
+Route::get('contact', function () {
+    return view('frontend.contact');
 });
 
 // Backend
