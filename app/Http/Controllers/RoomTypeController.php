@@ -12,7 +12,8 @@ class RoomTypeController extends Controller
      */
     public function index()
     {
-        
+        $roomtypes = RoomType::all();
+        return view('backend.room_type.index', compact('roomtypes'));
     }
 
     /**

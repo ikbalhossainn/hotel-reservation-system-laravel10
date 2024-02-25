@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BannerController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RoomTypeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -114,6 +115,16 @@ Route::post('banner/save', [BannerController::class, 'store'])->name('banner/sto
 Route::get('banner/edit/{id}', [BannerController::class, 'edit'])->name('banner/edit');
 Route::get('banner/update/{id}', [BannerController::class, 'update'])->name('banner/update');
 Route::get('banner/delete/{id}', [BannerController::class, 'destroy'])->name('banner/delete');
+
+// Room Type Route
+Route::get('roomtype',[RoomTypeController::class, 'index'])->name('roomtype/index');
+
+
+
+
+
+
+
 
 
 

@@ -33,35 +33,42 @@
                     <h4 class="header-title">Buttons example</h4>
                     <div class="input-group-append">
                         <a href="">
-                            <button class="btn btn-info waves-effect waves-light" type="button">Add Banner</button>
+                            <button class="btn btn-info waves-effect waves-light" type="button">Add Room Type</button>
                         </a>
 
                         {{-- here useing successed msg --}}
                     </div><br>
 
-                    <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap">
+                    <table id="" class="table table-striped table-bordered dt-responsive nowrap">
+
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>#SL</th>
+                                <th>Type</th>
+                                <th>Price</th>
+                                <th>Image</th>
+                                <th>Max Person</th>
+                                <th>Action</th>
                             </tr>
+                            {{-- type	price	image	max_parson --}}
                         </thead>
 
                         <tbody>
+                            @foreach($roomtypes as $key=>$roomtype)
 
                         <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
+                            <td>{{++$key}}</td>
+                            <td>{{$roomtype->type}}</td>
                             <td>Edinburgh</td>
-                            <td>61</td>
-                            <td>2011/04/25</td>
-                            <td>$320,800</td>
-                        </tr>
+                            <td>{{$roomtype->max_person}}</td>
+                            <td>
+                                <a href="#">Edit</a>
 
+                                <a href="#">Delete</a>
+                            </td>
+                            
+                        </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>
