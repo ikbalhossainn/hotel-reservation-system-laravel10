@@ -147,12 +147,12 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
-                                    <a href="services-1.html" class="nav-link">
+                                    <a href="services-1" class="nav-link">
                                         Services Style One
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="services-2.html" class="nav-link">
+                                    <a href="services-2" class="nav-link">
                                         Services Style Two
                                     </a>
                                 </li>

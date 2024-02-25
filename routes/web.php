@@ -78,6 +78,14 @@ Route::get('privacy-policy', function () {
     return view('frontend.pages.privacy-policy');
 });
 
+Route::get('services-1', function () {
+    return view('frontend.pages.services-1');
+});
+
+Route::get('services-2', function () {
+    return view('frontend.pages.services-2');
+});
+
 
 
 
