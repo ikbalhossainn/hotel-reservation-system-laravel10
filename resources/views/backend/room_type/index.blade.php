@@ -40,6 +40,7 @@
                     </div><br>
 
                     <table id="" class="table table-striped table-bordered dt-responsive nowrap">
+                        {{-- table id="datatable-buttons" hide <th>Action</th> --}}
 
                         <thead>
                             <tr>
@@ -62,7 +63,7 @@
                             <td>Edinburgh</td>
                             <td>{{$roomtype->max_person}}</td>
                             <td>
-                                <a href="#">Edit</a>
+                                <a href="{{route}}">Edit</a>
 
                                 <a href="#">Delete</a>
                             </td>

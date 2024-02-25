@@ -39,7 +39,8 @@
                         {{-- here useing successed msg --}}
                     </div><br>
 
-                    <table id="" class="table table-striped table-bordered dt-responsive nowrap">
+                    <table id="" class="table table-striped table-bordered dt-responsive nowrap"> 
+                        {{-- table id="datatable-buttons" hide <th>Action</th> --}}
                         <thead>
                             <tr>
                                 <th>#SL</th>

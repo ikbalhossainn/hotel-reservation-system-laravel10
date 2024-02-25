@@ -106,10 +106,10 @@ Route::get('admin/register', function () {
 
 // Route::get('banner', function () {
 //     return view('backend.banner.index');
-// });
+// }); // showing without controller
 
 // Banner Route
-Route::get('banners', [BannerController::class, 'index'])->name('banner/index');
+Route::get('banner', [BannerController::class, 'index'])->name('banner/index');
 Route::get('banner/create', [BannerController::class, 'create'])->name('banner/create');
 Route::post('banner/save', [BannerController::class, 'store'])->name('banner/store');
 Route::get('banner/edit/{id}', [BannerController::class, 'edit'])->name('banner/edit');
@@ -118,6 +118,7 @@ Route::get('banner/delete/{id}', [BannerController::class, 'destroy'])->name('ba
 
 // Room Type Route
 Route::get('roomtype',[RoomTypeController::class, 'index'])->name('roomtype/index');
+Route::get('roomtype/create', [RoomTypeController::class, 'create'])->name('roomtype/create');
 
 
 
