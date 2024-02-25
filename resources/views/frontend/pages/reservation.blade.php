@@ -117,34 +117,34 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Double Room</a></h3>
+                                                    <h3><a href="room-details">Double Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">320</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Single Room</a></h3>
+                                                    <h3><a href="room-details">Single Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">300</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,254 +164,34 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Double Room</a></h3>
+                                                    <h3><a href="room-details">Double Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">320</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Single Room</a></h3>
+                                                    <h3><a href="room-details">Single Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">300</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4">
-                                <div class="side-bar-form">
-                                    <h3>Booking Sheet </h3>
-                                    <form>
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Check in</label>
-                                                    <div class="input-group">
-                                                        <input id="datetimepicker" type="text" class="form-control" placeholder="09/29/2020">
-                                                        <span class="input-group-addon"></span>
-                                                    </div>
-                                                    <i class='bx bxs-calendar'></i>
-                                                </div>
-                                            </div>
-    
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Check Out</label>
-                                                    <div class="input-group">
-                                                        <input id="datetimepicker-check" type="text" class="form-control" placeholder="09/29/2020">
-                                                        <span class="input-group-addon"></span>
-                                                    </div>
-                                                    <i class='bx bxs-calendar'></i>
-                                                </div>
-                                            </div>
-    
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Numbers of Persons</label>
-                                                    <select class="form-control">
-                                                        <option>01</option>
-                                                        <option>02</option>
-                                                        <option>03</option>
-                                                        <option>04</option>
-                                                        <option>05</option>
-                                                    </select>	
-                                                </div>
-                                            </div>
-    
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Numbers of Rooms</label>
-                                                    <select class="form-control">
-                                                        <option>01</option>
-                                                        <option>02</option>
-                                                        <option>03</option>
-                                                        <option>04</option>
-                                                        <option>05</option>
-                                                    </select>	
-                                                </div>
-                                            </div>
-                
-                                            <div class="col-lg-12 col-md-12">
-                                                <button type="submit" class="default-btn btn-bg-three border-radius-5">
-                                                    Book Now
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tabs_item">
-                    <div class="reservation-tab-item">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="side-bar-form">
-                                    <h3>Booking Sheet </h3>
-                                    <form>
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Check in</label>
-                                                    <div class="input-group">
-                                                        <input id="datetimepicker" type="text" class="form-control" placeholder="09/29/2020">
-                                                        <span class="input-group-addon"></span>
-                                                    </div>
-                                                    <i class='bx bxs-calendar'></i>
-                                                </div>
-                                            </div>
-    
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Check Out</label>
-                                                    <div class="input-group">
-                                                        <input id="datetimepicker-check" type="text" class="form-control" placeholder="09/29/2020">
-                                                        <span class="input-group-addon"></span>
-                                                    </div>
-                                                    <i class='bx bxs-calendar'></i>
-                                                </div>
-                                            </div>
-    
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Numbers of Persons</label>
-                                                    <select class="form-control">
-                                                        <option>01</option>
-                                                        <option>02</option>
-                                                        <option>03</option>
-                                                        <option>04</option>
-                                                        <option>05</option>
-                                                    </select>	
-                                                </div>
-                                            </div>
-    
-                                            <div class="col-lg-12">
-                                                <div class="form-group">
-                                                    <label>Numbers of Rooms</label>
-                                                    <select class="form-control">
-                                                        <option>01</option>
-                                                        <option>02</option>
-                                                        <option>03</option>
-                                                        <option>04</option>
-                                                        <option>05</option>
-                                                    </select>	
-                                                </div>
-                                            </div>
-                
-                                            <div class="col-lg-12 col-md-12">
-                                                <button type="submit" class="default-btn btn-bg-three border-radius-5">
-                                                    Book Now
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-8">
-                                <div class="reservation-widget-content">
-                                    <h2>Most Suitable Relevant Rooms</h2>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="room-item reservation-room">
-                                                <a href="room-details.html">
-                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
-                                                </a>
-                                                <div class="content">
-                                                    <h3><a href="room-details.html">Double Room</a></h3>
-                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
-                                                    <ul>
-                                                        <li class="text-color">320</li>
-                                                        <li><span>Per Night</span></li>
-                                                    </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="room-item reservation-room">
-                                                <a href="room-details.html">
-                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
-                                                </a>
-                                                <div class="content">
-                                                    <h3><a href="room-details.html">Single Room</a></h3>
-                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
-                                                    <ul>
-                                                        <li class="text-color">300</li>
-                                                        <li><span>Per Night</span></li>
-                                                    </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tabs_item">
-                    <div class="reservation-tab-item">
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="reservation-widget-content">
-                                    <h2>Most Suitable Relevant Rooms</h2>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="room-item reservation-room">
-                                                <a href="room-details.html">
-                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
-                                                </a>
-                                                <div class="content">
-                                                    <h3><a href="room-details.html">Double Room</a></h3>
-                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
-                                                    <ul>
-                                                        <li class="text-color">320</li>
-                                                        <li><span>Per Night</span></li>
-                                                    </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="room-item reservation-room">
-                                                <a href="room-details.html">
-                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
-                                                </a>
-                                                <div class="content">
-                                                    <h3><a href="room-details.html">Single Room</a></h3>
-                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
-                                                    <ul>
-                                                        <li class="text-color">300</li>
-                                                        <li><span>Per Night</span></li>
-                                                    </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -557,34 +337,34 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Double Room</a></h3>
+                                                    <h3><a href="room-details">Double Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">320</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Single Room</a></h3>
+                                                    <h3><a href="room-details">Single Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">300</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -604,34 +384,254 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Double Room</a></h3>
+                                                    <h3><a href="room-details">Double Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">320</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="col-lg-6 col-md-6">
                                             <div class="room-item reservation-room">
-                                                <a href="room-details.html">
+                                                <a href="room-details">
                                                     <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
                                                 </a>
                                                 <div class="content">
-                                                    <h3><a href="room-details.html">Single Room</a></h3>
+                                                    <h3><a href="room-details">Single Room</a></h3>
                                                     <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
                                                     <ul>
                                                         <li class="text-color">300</li>
                                                         <li><span>Per Night</span></li>
                                                     </ul>
-                                                    <a href="book.html" class="book-btn">Book Now</a>
+                                                    <a href="book" class="book-btn">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="side-bar-form">
+                                    <h3>Booking Sheet </h3>
+                                    <form>
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Check in</label>
+                                                    <div class="input-group">
+                                                        <input id="datetimepicker" type="text" class="form-control" placeholder="09/29/2020">
+                                                        <span class="input-group-addon"></span>
+                                                    </div>
+                                                    <i class='bx bxs-calendar'></i>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Check Out</label>
+                                                    <div class="input-group">
+                                                        <input id="datetimepicker-check" type="text" class="form-control" placeholder="09/29/2020">
+                                                        <span class="input-group-addon"></span>
+                                                    </div>
+                                                    <i class='bx bxs-calendar'></i>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Numbers of Persons</label>
+                                                    <select class="form-control">
+                                                        <option>01</option>
+                                                        <option>02</option>
+                                                        <option>03</option>
+                                                        <option>04</option>
+                                                        <option>05</option>
+                                                    </select>	
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Numbers of Rooms</label>
+                                                    <select class="form-control">
+                                                        <option>01</option>
+                                                        <option>02</option>
+                                                        <option>03</option>
+                                                        <option>04</option>
+                                                        <option>05</option>
+                                                    </select>	
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-lg-12 col-md-12">
+                                                <button type="submit" class="default-btn btn-bg-three border-radius-5">
+                                                    Book Now
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs_item">
+                    <div class="reservation-tab-item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="side-bar-form">
+                                    <h3>Booking Sheet </h3>
+                                    <form>
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Check in</label>
+                                                    <div class="input-group">
+                                                        <input id="datetimepicker" type="text" class="form-control" placeholder="09/29/2020">
+                                                        <span class="input-group-addon"></span>
+                                                    </div>
+                                                    <i class='bx bxs-calendar'></i>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Check Out</label>
+                                                    <div class="input-group">
+                                                        <input id="datetimepicker-check" type="text" class="form-control" placeholder="09/29/2020">
+                                                        <span class="input-group-addon"></span>
+                                                    </div>
+                                                    <i class='bx bxs-calendar'></i>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Numbers of Persons</label>
+                                                    <select class="form-control">
+                                                        <option>01</option>
+                                                        <option>02</option>
+                                                        <option>03</option>
+                                                        <option>04</option>
+                                                        <option>05</option>
+                                                    </select>	
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label>Numbers of Rooms</label>
+                                                    <select class="form-control">
+                                                        <option>01</option>
+                                                        <option>02</option>
+                                                        <option>03</option>
+                                                        <option>04</option>
+                                                        <option>05</option>
+                                                    </select>	
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-lg-12 col-md-12">
+                                                <button type="submit" class="default-btn btn-bg-three border-radius-5">
+                                                    Book Now
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <div class="reservation-widget-content">
+                                    <h2>Most Suitable Relevant Rooms</h2>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="room-item reservation-room">
+                                                <a href="room-details">
+                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
+                                                </a>
+                                                <div class="content">
+                                                    <h3><a href="room-details">Double Room</a></h3>
+                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
+                                                    <ul>
+                                                        <li class="text-color">320</li>
+                                                        <li><span>Per Night</span></li>
+                                                    </ul>
+                                                    <a href="book" class="book-btn">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="room-item reservation-room">
+                                                <a href="room-details">
+                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
+                                                </a>
+                                                <div class="content">
+                                                    <h3><a href="room-details">Single Room</a></h3>
+                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
+                                                    <ul>
+                                                        <li class="text-color">300</li>
+                                                        <li><span>Per Night</span></li>
+                                                    </ul>
+                                                    <a href="book" class="book-btn">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs_item">
+                    <div class="reservation-tab-item">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="reservation-widget-content">
+                                    <h2>Most Suitable Relevant Rooms</h2>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="room-item reservation-room">
+                                                <a href="room-details">
+                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img7.jpg" alt="Images">
+                                                </a>
+                                                <div class="content">
+                                                    <h3><a href="room-details">Double Room</a></h3>
+                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
+                                                    <ul>
+                                                        <li class="text-color">320</li>
+                                                        <li><span>Per Night</span></li>
+                                                    </ul>
+                                                    <a href="book" class="book-btn">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="room-item reservation-room">
+                                                <a href="room-details">
+                                                    <img src="{{asset('')}}frontend/assets/img/room/room-img2.jpg" alt="Images">
+                                                </a>
+                                                <div class="content">
+                                                    <h3><a href="room-details">Single Room</a></h3>
+                                                    <p>You can easily reserve a hotel room with a double bed as you want. This will give you a very good feeling.</p>
+                                                    <ul>
+                                                        <li class="text-color">300</li>
+                                                        <li><span>Per Night</span></li>
+                                                    </ul>
+                                                    <a href="book" class="book-btn">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -723,7 +723,7 @@
                             provide you a special support for all of our guests and that's will  be the main reason to be the most popular.
                         </p>
                     </div>
-                    <a href="contact.html" class="default-btn btn-bg-three border-radius-5">Contact Us</a>
+                    <a href="contact" class="default-btn btn-bg-three border-radius-5">Contact Us</a>
                 </div>
             </div>
 

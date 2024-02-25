@@ -91,37 +91,37 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="testimonials.html" class="nav-link">
+                                    <a href="testimonials" class="nav-link">
                                         Testimonials
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="checkout.html" class="nav-link">
+                                    <a href="checkout" class="nav-link">
                                         Check out
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="sign-in.html" class="nav-link">
+                                    <a href="sign-in" class="nav-link">
                                         Sign In
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="sign-up.html" class="nav-link">
+                                    <a href="sign-up" class="nav-link">
                                         Sign Up
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="terms-condition.html" class="nav-link">
+                                    <a href="terms-condition" class="nav-link">
                                         Terms & Conditions
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="privacy-policy.html" class="nav-link">
+                                    <a href="privacy-policy" class="nav-link">
                                         Privacy Policy
                                     </a>
                                 </li>

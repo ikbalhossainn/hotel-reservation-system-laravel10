@@ -41,26 +41,46 @@ Route::get('team', function () {
 Route::get('faq', function () {
     return view('frontend.pages.faq');
 });
+
 Route::get('restaurant', function () {
     return view('frontend.pages.restaurant');
 });
+
 Route::get('reservation', function () {
     return view('frontend.pages.reservation');
 });
-Route::get('team', function () {
-    return view('frontend.pages.team');
+
+Route::get('gallery', function () {
+    return view('frontend.pages.gallery');
 });
-Route::get('team', function () {
-    return view('frontend.pages.team');
+
+Route::get('testimonials', function () {
+    return view('frontend.pages.testimonials');
 });
-Route::get('team', function () {
-    return view('frontend.pages.team');
+
+Route::get('checkout', function () {
+    return view('frontend.pages.checkout');
+});
+
+Route::get('sign-in', function () {
+    return view('frontend.pages.sign-in');
+});
+
+Route::get('sign-up', function () {
+    return view('frontend.pages.sign-up');
+});
+
+Route::get('terms-condition', function () {
+    return view('frontend.pages.terms-condition');
+});
+
+Route::get('privacy-policy', function () {
+    return view('frontend.pages.privacy-policy');
 });
 
 
-Route::get('contact', function () {
-    return view('frontend.contact');
-});
+
+
 
 // Backend
 
