@@ -109,16 +109,39 @@ Route::get('admin/register', function () {
 // }); // showing without controller
 
 // Banner Route
-Route::get('banner', [BannerController::class, 'index'])->name('banner/index');
+Route::get('banners', [BannerController::class, 'index'])->name('banner/index');
 Route::get('banner/create', [BannerController::class, 'create'])->name('banner/create');
 Route::post('banner/save', [BannerController::class, 'store'])->name('banner/store');
 Route::get('banner/edit/{id}', [BannerController::class, 'edit'])->name('banner/edit');
-Route::get('banner/update/{id}', [BannerController::class, 'update'])->name('banner/update');
+Route::post('banner/update/{id}', [BannerController::class, 'update'])->name('banner/update');
 Route::get('banner/delete/{id}', [BannerController::class, 'destroy'])->name('banner/delete');
 
 // Room Type Route
 Route::get('roomtype',[RoomTypeController::class, 'index'])->name('roomtype/index');
 Route::get('roomtype/create', [RoomTypeController::class, 'create'])->name('roomtype/create');
+Route::post('roomtype/save', [RoomTypeController::class, 'store'])->name('roomtype/store');
+Route::get('roomtype/edit/{id}', [RoomTypeController::class, 'edit'])->name('roomtype/edit');
+Route::post('roomtype/update/{id}', [RoomTypeController::class, 'update'])->name('roomtype/update');
+Route::get('roomtype/delete/{id}', [RoomTypeController::class, 'delete'])->name('roomtype/delete');
+
+
+// Route::get('product', [ProductController::class, 'index'])
+// ->name('product.index');     
+               
+// Route::get('product/create', [ProductController::class, 'create'])
+//             ->name('product.create');
+
+// Route::post('product/store', [ProductController::class, 'store'])
+//             ->name('product.store');
+
+// Route::get('product/edit/{id}', [ProductController::class, 'edit'])
+//             ->name('product.edit');
+
+// Route::post('product/update/{id}', [ProductController::class, 'update'])
+//             ->name('product.update');
+
+// Route::get('product/delete{id}', [ProductController::class, 'delete'])
+//             ->name('product.delete');
 
 
 

@@ -59,13 +59,19 @@
 
                         <tr>
                             <td>{{++$key}}</td>
+
                             <td>{{$roomtype->type}}</td>
-                            <td>Edinburgh</td>
+
+                            <td><img src="{{asset('roomtype/' .$roomtype->image)}}" alt="" width="50px" height="50px">
+                            </td>
+
                             <td>{{$roomtype->max_person}}</td>
                             <td>
-                                <a href="{{route}}">Edit</a>
+                                <a class="btn btn-secondary" href="{{route('roomtype/edit', $roomtype->id)}}"><i class="bi bi-pencil-square">Edit</i>
+                                </a>
 
-                                <a href="#">Delete</a>
+                                <a class="btn btn-danger" href="{{route('roomtype/delete', $roomtype->id)}}" onclick="return confirm('Are you sure to Delete')" ><i class="bi bi-trash">Delete</i>
+                                </a>
                             </td>
                             
                         </tr>
