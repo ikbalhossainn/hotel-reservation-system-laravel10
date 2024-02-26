@@ -87,6 +87,18 @@ Route::get('services-2', function () {
     return view('frontend.pages.services-2');
 });
 
+Route::get('service-details', function () {
+    return view('frontend.pages.service-details');
+});
+
+Route::get('404', function () {
+    return view('frontend.pages.404');
+});
+
+Route::get('coming-soon', function () {
+    return view('frontend.pages.coming-soon');
+});
+
 
 
 

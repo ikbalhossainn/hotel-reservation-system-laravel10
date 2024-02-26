@@ -127,13 +127,13 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="404.html" class="nav-link">
+                                    <a href="404" class="nav-link">
                                         404 page
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="coming-soon.html" class="nav-link">
+                                    <a href="coming-soon" class="nav-link">
                                         Coming Soon
                                     </a>
                                 </li>
@@ -157,7 +157,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="service-details.html" class="nav-link">
+                                    <a href="service-details" class="nav-link">
                                         Service Details
                                     </a>
                                 </li>
